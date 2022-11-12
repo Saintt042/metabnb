@@ -117,11 +117,11 @@ input::placeholder {
   border-color: #333;
 }
 
-button:hover{
+#search:hover{
   opacity: 0.9;
 }
 
-button{
+#search{
   border: #A02279;
   padding: 15px;
   border-radius: 2px;

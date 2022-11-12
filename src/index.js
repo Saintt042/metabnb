@@ -4,7 +4,6 @@ import './index.css';
 import App from './App';
 import Navbar from './Navbar';
 import Midsearch from './Midsearch';
-import Footer from './Footer';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -13,7 +12,6 @@ root.render(
     <Navbar />
     <Midsearch />
 				<App />
-        <Footer />
   </React.StrictMode>
 );
 

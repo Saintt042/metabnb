@@ -7,7 +7,7 @@ const Midsearch = () => {
 
         <form>
           <input type="text" name="" placeholder="search for location" />
-          <button> Search </button>
+          <button id="search"> Search </button>
         </form>
       </div>
       </div>
