@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Navbar from './Navbar';
+import Navbar from './Navbar/Navbar';
 import Midsearch from './Midsearch';
 
 

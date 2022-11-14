@@ -22,28 +22,28 @@ const Footer = () => {
             <div className="community">
                 <h2> Community </h2>
                 <ul>
-                    <li> NFT </li>
-                    <li> Tokens </li>
-                    <li> Landlords </li>
-                    <li> Discord </li>
+                    <ul> NFT </ul>
+                    <ul> Tokens </ul>
+                    <ul> Landlords </ul>
+                    <ul> Discord </ul>
                 </ul>
             </div>
             <div className="places">
                 <h2> Places </h2>
                 <ul>
-                    <li> Castle </li>
-                    <li> Farms </li>
-                    <li> Beach </li>
-                    <li> Learn more </li>
+                    <ul> Castle </ul>
+                    <ul> Farms </ul>
+                    <ul> Beach </ul>
+                    <ul> Learn more </ul>
                 </ul>
             </div>
             <div className="about">
                 <h2> About us </h2>
                 <ul>
-                    <li> Road map </li>
-                    <li> Creators </li>
-                    <li> Career </li>
-                    <li> Contact us </li>
+                    <ul> Road map </ul>
+                    <ul> Creators </ul>
+                    <ul> Career </ul>
+                    <ul> Contact us </ul>
                 </ul>
             </div>
         </Container>

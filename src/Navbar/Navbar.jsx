@@ -1,10 +1,13 @@
-import Logo1 from './resources/logosect/logo1.png';
+import Logo1 from '../resources/logosect/logo1.png';
+import { Container3 } from './NavbarStyle';
 
 const Navbar = () => {
     return (
-        <nav className="navbar">
-            
-            <h1> <img src={Logo1} alt="" /> </h1>
+        <Container3>
+            <div className="navbar">
+             <div className="loggo">
+             <img src={Logo1} alt="" />
+             </div>
             <div className="links">
                 <a href="/"> Home </a>
                 <a href="/"> Place to stay </a>
@@ -14,7 +17,8 @@ const Navbar = () => {
             <div className="connectbutton">
                 <a className='btnconnect' href="/"> Connect wallet </a>
                 </div>
-        </nav>
+        </div>
+        </Container3>
     );
 }
  

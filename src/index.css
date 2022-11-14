@@ -3,60 +3,9 @@
 * {
   margin: 0;
   font-family: 'Red Rose', cursive;	 
-  color: #333;
+  color: white;
 }
-  .navbar {
-    padding-top: 45px;
-    padding-left: 8%;
-    padding-right: 8%;
-    display: flex;  
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 auto;
-  }
-
-  .navbar h1 {
-    color:#A02279;
-  }
-
-  .navbar .connectbutton{
-    background-color: #A02279;
-    border-radius: 8px;
-    padding: 12px 8px;
-    font-family: 'Red Rose';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    /* width: 170px;
-    height: 48px; */
-    text-align: center;
-  }
-
-  .navbar .connectbutton a{
-    color: #fafafa;   
-  }
-  .navbar .links {
-    margin-left: 60px;
-  }
-  .navbar .links .connectbutton{
-    margin: 15px;
-  }
-  
-  .navbar .connectbutton a:hover {
-    transform: scale(1.2);
-    transition: .4s;
-  }
-  .navbar a {
-    margin-right: 16px;
-    text-decoration: none;
-    padding: 20px;
-  }
-  .navbar .links a:hover {
-    color: #A02279;
-  }
  
-  
 .flex {
   display: flex;
   align-items: center;
@@ -91,25 +40,7 @@
   color: #434343;
 }
 
-
-.align-start{
-  align-items: flex-start;
-}
-
-
-.flex > div,
-.flex > ul{
-  flex: 1;
-}
-
-.flex > div:first-child{
-  margin-right: 80px;
-  width: 50px;
-}
-/* 
-.flex > div:last-child{
-  margin-left: 20px;
-} */
+/* Midsearch Styles */
 
 
 .searchlocation {
@@ -161,18 +92,14 @@ input {
 
 .pix {
   display: flex;
-  margin-top: 80px;
+  margin-top: 180px;
 }
 
-.pix img{
-  width: 220px;
-  height: 156px;
-}
 .pix1{
   margin-top: 80px;
-  margin-left: 55px;
+  margin-left: 75px;
 }
 .pix2 {
-  margin-right: 75px;
+  margin-right: 50px;
 }
 
