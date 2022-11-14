@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap');
 
 * {
   margin: 0;
-  font-family: "Red Rose";	 
+  font-family: 'Red Rose', cursive;	 
   color: #333;
 }
-
   .navbar {
     padding-top: 45px;
     padding-left: 8%;
@@ -13,7 +12,6 @@
     display: flex;  
     align-items: center;
     justify-content: space-between;
-    max-width: 1100px;
     margin: 0 auto;
   }
 
@@ -23,8 +21,16 @@
 
   .navbar .connectbutton{
     background-color: #A02279;
-    border-radius: 5px;
-    padding: 10px 5px;
+    border-radius: 8px;
+    padding: 12px 8px;
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* width: 170px;
+    height: 48px; */
+    text-align: center;
   }
 
   .navbar .connectbutton a{
@@ -54,14 +60,20 @@
 .flex {
   display: flex;
   align-items: center;
-  max-width: 40%;
-  margin-left: 8rem;
+  margin-left: 6rem;
 }
 
 .flex h1{
-  font-size: 50px;
-  font-weight: bolder;
+  font-family: 'Red Rose';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 140%;
+  /* or 78px */
+  letter-spacing: -0.02em;
   margin-top: 10rem;
+  color: #434343;
+  width: 646px;
 }
 
 .flex h1 span{
@@ -70,9 +82,13 @@
 
 .flex p{
   margin-top: 2.5rem;
-  font-size: 23px;
-  font-weight: bold;
-  opacity: 0.9;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  width: 636px;
+  height: 102px;
+  color: #434343;
 }
 
 
@@ -87,7 +103,8 @@
 }
 
 .flex > div:first-child{
-  margin-right: 20px;
+  margin-right: 80px;
+  width: 50px;
 }
 /* 
 .flex > div:last-child{
@@ -95,96 +112,67 @@
 } */
 
 
-form{
+.searchlocation {
   display: flex;
   margin-top: 2rem;
+  width: 618.71px;
 }
 
-input{
-  padding: 15px 95px;
-  border-radius: 5px;
-  font-size: 12px;
-  flex: 0.7;
-  font-weight: 700;
-  border: grey;
-
-}
-
-input::placeholder {
-  color: lightgrey;
-  font-size: 15px;
-  opacity: 0.7;
-  border-color: #333;
-}
-
-#search:hover{
-  opacity: 0.9;
-}
-
-#search{
-  border: #A02279;
-  padding: 15px;
-  border-radius: 2px;
-  background-color: #A02279;
-  box-shadow: 0 0 10px rgb(0, 0, 0.15);
-  color: white;
-  font-weight: 700;
-  font-size: 14px;
-  flex: 0.3;
+input {
   position: relative;
-  top: 1px;
-  right: 120px;
-}
-
-
-/* blog previews / list */
-.blog-preview {
-  padding: 10px 16px;
-  margin: 20px 0;
-  border-bottom: 1px solid #fafafa;
-}
-.blog-preview:hover{
-  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
-}
-
-.blog-preview h2{
+  display: inline-block;
   font-size: 20px;
-  color: #f1356d;
-  margin-bottom: 8px;
+  box-sizing: border-box;
+  transition: .5s;
 }
 
-/* Footer */
-
-
-footer {
-  background-color: var(--very-dark-blue);
-  color: white;
-  padding: 50px 0;
+.searchbox {
+  background: rgba(247, 247, 247, 0.1);
+  width: 618.71px;
+  height: 54.08px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  border-color: #B8B8B8;
+  outline: none;
+  padding: 0 15px;
+  border: 1px solid #A3A3A3;
+  border-radius: 8px 0px 0px 8px;
 }
 
-footer ul {
-  list-style-type: none;
-}
-
-footer ul li{
-  margin-bottom: 20px;
-}
-
-footer .social-media{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-footer .circle {
-  border: 1px solid white;
-  border-radius: 50%;
-  color: white;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 10px;
+.searchbtn {
+  position: relative;
   height: 40px;
-  width: 40px;
-  text-decoration: none;
+  left: -5px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  border-radius: 0 8px 8px 0;
+  border: none;
+  padding: 10px 50px;
+  outline: none;
+  cursor: pointer;
+  background: #A02279;
+  color: #fff;
+  width: 388.71px;
+  height: 54.08px;
 }
+
+.pix {
+  display: flex;
+  margin-top: 80px;
+}
+
+.pix img{
+  width: 220px;
+  height: 156px;
+}
+.pix1{
+  margin-top: 80px;
+  margin-left: 55px;
+}
+.pix2 {
+  margin-right: 75px;
+}
+

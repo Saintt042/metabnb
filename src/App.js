@@ -1,12 +1,18 @@
 import { Outlet } from "react-router-dom";
+import Subsect from "./Subsect/Subsect";
+import Opensea from "./Opensea/Opensea";
 import Footer from "./Footer/Footer";
+import Nftsect from "./Nftsect/Nftsect";
+
 
 
 function App() {
   return (
     <>
-      <h1> App Compssssonent </h1>
       <Outlet />
+      <Opensea />
+      <Nftsect />
+      <Subsect />
       <Footer />
     </>
   );
