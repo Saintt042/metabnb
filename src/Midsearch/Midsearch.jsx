@@ -1,13 +1,14 @@
-import first1 from './resources/topsect/first1.png';
-import first2 from './resources/topsect/first2.png';
-import second1 from './resources/topsect/second1.png';
-import second2 from './resources/topsect/second2.png';
-
+import { Container6 } from './MidsearchStyle';
+import first1 from '../resources/topsect/first1.png';
+import first2 from '../resources/topsect/first2.png';
+import second1 from '../resources/topsect/second1.png';
+import second2 from '../resources/topsect/second2.png';
 
 
 const Midsearch = () => {
     return (
-        <div className="flex">
+       <Container6>
+         <div className="flex">
       <div className="headd">
         <h1 className="rentaplace"> Rent a <span>Place</span> away from<span> Home </span> in the <span> Metaverse </span> </h1>
         <p className="weprovideyou"> we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone </p>
@@ -28,7 +29,9 @@ const Midsearch = () => {
         <img src={ second2 } alt="second2img" />
        </div>
       </div>
+      
       </div>
+       </Container6>
     );
 }
  

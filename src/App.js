@@ -1,18 +1,18 @@
-import { Outlet } from "react-router-dom";
-import Subsect from "./Subsect/Subsect";
-import Opensea from "./Opensea/Opensea";
+import { Routes, Route } from "react-router-dom";
+import Home from "./Components/Home";
+import Placetostay from "./Components/Placetostay";
 import Footer from "./Footer/Footer";
-import Nftsect from "./Nftsect/Nftsect";
-
-
+import Navbar from "./Navbar/Navbar";
 
 function App() {
   return (
     <>
-      <Outlet />
-      <Opensea />
-      <Nftsect />
-      <Subsect />
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/placetostay" element={<Placetostay />} />
+      </Routes>
+
       <Footer />
     </>
   );

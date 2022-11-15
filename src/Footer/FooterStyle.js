@@ -42,11 +42,13 @@ justify-content: space-between;
         font-size: clamp( 1rem, 1.5vw, 1.2rem );
         margin-bottom: 1rem;
         margin-left: 78px;
+        color: #fff;
     }
     ul ul{
         letter-spacing: 1px;
         margin-bottom: 10px;
         font-size: clamp( 0.8rem, 1vw, 1rem );
+        color: #fff;
     }
 }
 

@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const Container3 = styled.div`
 width: 1220px;
 margin-left: 6rem;
@@ -10,6 +9,8 @@ margin-top: 40px;
 .navbar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
 }
 
 
@@ -30,21 +31,20 @@ margin-top: 40px;
 
 .connectbutton {
     background: #A02279;
-border-radius: 10px;
-padding: 15px 10px;
-margin-right: 25px;
+    border-radius: 10px;
+    padding: 15px 10px;
+    margin-right: 25px;
 }
 
 .btnconnect {
     text-decoration: none;
-text-align: center;
-font-size: 16px;
-font-weight: 400;
-line-height: 19.98px;
-padding: 15px;
-margin: 1px;
-
-
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.98px;
+    padding: 15px;
+    margin: 1px;
+    color: white;
 }
 
 

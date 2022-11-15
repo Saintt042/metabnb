@@ -1,5 +1,6 @@
 import Logo1 from '../resources/logosect/logo1.png';
 import { Container3 } from './NavbarStyle';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -9,8 +10,13 @@ const Navbar = () => {
              <img src={Logo1} alt="" />
              </div>
             <div className="links">
-                <a href="/"> Home </a>
-                <a href="/"> Place to stay </a>
+                <NavLink to='/'>
+                     Home 
+                </NavLink>
+                <NavLink to='/placetostay' >
+                Place to stay 
+                </NavLink>
+                
                 <a href="/"> NFTs </a>
                 <a href="/"> Community </a>
             </div>
