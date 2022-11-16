@@ -3,10 +3,6 @@ import styled from "styled-components";
 
 export const Container6 = styled.section`
 
-> * {
-    
-}
-
 .flex {
     display: flex;
     align-items: center;
@@ -22,7 +18,7 @@ export const Container6 = styled.section`
     letter-spacing: -0.02em;
     margin-top: 10rem;
     color: #434343;
-    width: 646px;
+    max-width: 646px;
   }
   
   .flex h1 span{
@@ -35,8 +31,8 @@ export const Container6 = styled.section`
     font-weight: 400;
     font-size: 24px;
     line-height: 35px;
-    width: 636px;
-    height: 102px;
+    max-width: 636px;
+    max-height: 102px;
     color: #434343;
   }
   
@@ -46,7 +42,7 @@ export const Container6 = styled.section`
   .searchlocation {
     display: flex;
     margin-top: 2rem;
-    width: 618.71px;
+    max-width: 618.71px;
   }
   
   input {
@@ -60,7 +56,7 @@ export const Container6 = styled.section`
   
   .searchbox {
     background: rgba(247, 247, 247, 0.1);
-    width: 618.71px;
+    max-width: 618.71px;
     height: 54.08px;
     font-weight: 400;
     font-size: 14px;
@@ -87,7 +83,7 @@ export const Container6 = styled.section`
     cursor: pointer;
     background: #A02279;
     color: #fff;
-    width: 388.71px;
+    max-width: 388.71px;
     height: 54.08px;
   }
   
@@ -103,6 +99,59 @@ export const Container6 = styled.section`
   .pix2 {
     margin-right: 50px;
   }
+
+
+  
+@media screen and ( max-width: 815px ) {
+    display: flex;
+    
+   
+.flex {
+    display: flex;
+    flex-direction: column-reverse;
+   margin-right: 90px;
+   width: 15%;
+  }
+
+  form {
+    width: 50%;
+  }
+  
+  .flex h1{
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 26px;
+    
+  }
+  
+
+  
+  .searchlocation {
+    
+    margin-top: 20rem;
+    width: 218.71px;
+  }
+  
+  input {
+  width: 200px;
+    font-size: 20px;
+   
+  }
+  
+  
+  .pix {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .pix1{
+    margin-left: 150px;
+  }
+  .pix2 {
+    margin-left: 150px;
+  }
+
   
 
 `;

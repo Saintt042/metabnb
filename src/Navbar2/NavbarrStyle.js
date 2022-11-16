@@ -40,10 +40,24 @@ width: 1240px;
 
 
 
+@media screen and ( max-width: 815px ) {
+   
+> * {
+    display: flex;
+    flex-direction: column;
+}
 
 
+.links {
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+}
 
 
+.links a {
+   
+}
 
 
 `;

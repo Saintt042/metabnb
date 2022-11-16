@@ -9,9 +9,9 @@ const Opensea = () => {
     return (
        <Container1>
          <div className="tokenimg">
-            <img src={ mbtoken } alt="mbtoken" />
-            <img src={ metamask11 } alt="metamask11" />
-            <img src={ opensea22 } alt="opensea22" />
+            <img src={ mbtoken } alt="mbtoken" id='jsd'/>
+            <img src={ metamask11 } alt="metamask11" id='jsd' />
+            <img src={ opensea22 } alt="opensea22" id='jsd' />
         </div>
        </Container1>
     );

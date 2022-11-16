@@ -1,14 +1,14 @@
 import React from 'react'
 import iconstar from '../resources/middlesect/iconstar.svg';
-import firstnft from '../resources/middlesect/first.png';
+// import firstnft from '../resources/middlesect/first.png';
 import { Container5 } from './NftcardStyle'; 
 
-const Nftcard = () => {
+const Nftcard = ( { icon } ) => {
   return (
     <Container5>
      <div className="manynfts">
           <div className="nfts">
-            <img src={firstnft} alt="nft1" id="firstnfts" />
+            <img src={icon} alt="nft1" id="firstnfts" />
           </div>
 
           <div className="contents">

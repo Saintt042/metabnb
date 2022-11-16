@@ -55,7 +55,7 @@ justify-content: space-between;
 @media screen and ( max-width: 815px ) {
     > *,
     .avails {
-        width: 40%;
+        width: 50%;
     }
     .avails,
     .community {

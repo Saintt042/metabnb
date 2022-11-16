@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container3 = styled.div`
-width: 1220px;
+max-width: 1220px;
 margin-left: 6rem;
 margin-top: 40px;
 
@@ -10,7 +10,6 @@ margin-top: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
 }
 
 
@@ -29,23 +28,40 @@ margin-top: 40px;
     text-decoration: underline;
 }
 
-.connectbutton {
-    background: #A02279;
-    border-radius: 10px;
-    padding: 15px 10px;
-    margin-right: 25px;
-}
 
 .btnconnect {
+    background: #A02279;
     text-decoration: none;
     text-align: center;
     font-size: 16px;
     font-weight: 400;
+    border-radius: 10px;
+    border: none;
     line-height: 19.98px;
     padding: 15px;
     margin: 1px;
     color: white;
+    cursor: pointer;
 }
 
 
-}`;
+@media screen and ( max-width: 815px ) {
+    
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+.links a {
+
+    display: flex;
+    height: 40px;
+    
+}
+
+
+
+
+`;

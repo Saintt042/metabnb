@@ -36,6 +36,23 @@ padding: 40px 7%;
 }
 
 
+@media screen and ( max-width: 815px ) {
+    display: flex;
+    flex-direction: column;
+    > * {
+        width: 100%;
+    }
+    .metabnb_nfts{
+        font-weight: 700;
+        font-size: 40px;
+    }
+    
+    .photos img{
+        width: 100%;
+        height: 250px;
+        margin-left: 10px
+    }
+    
 
 
 

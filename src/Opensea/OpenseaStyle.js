@@ -12,6 +12,22 @@ export const Container1 = styled.div`
 }
 
 
+@media screen and ( max-width: 815px ) {
+   > * {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      
+   }
+
+   #jsd {
+      width: 200px;
+      margin-left: 80px;
+   }
+   
+
+
+
 
 
 `;
